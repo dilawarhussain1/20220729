@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="see" d>
+
+  <h2 ;>Calculate zkat, Gold, Silvar, cash</h2>
+
+  <p>Total Gold</p>
+
+  <input type="number" id="amount1" placeholder="Enter your Gold" class="ff"><br><p>Total Silvar</p>
+  <input type="number" id="amount2" placeholder="Enter your Silvar" class="ff"> <br><p>Total cash</p>
+  <input type="number" id="amount3" placeholder="Enter your cash" class="ff"><br>
+
+  <button onclick="
+
+      let gold=document.getElementById('amount1').value; 
+      let goldAmount = gold*120000;
+      
+      let silver = document.getElementById('amount2').value; 
+      let silverAmount= silver*1500;
+     
+      let cash = document.getElementById('amount3').value;
+      
+
+      let goldAmountD = goldAmount /40;
+      let silverAmountD = silverAmount /40;
+      let cashD = cash /40;
+      let totalZakat = goldAmountD + silverAmountD + cashD;
+
+      document.getElementById('heading').innerText=totalZakat;"><br>
+        
+      Calculate zakat
+  </button>
+
+  <h1 id="heading"> Yor Total Zakat</h1>
+   </div>
+  
+</body>
+</html>

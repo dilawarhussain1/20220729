@@ -1,0 +1,17 @@
+
+
+body{
+     background-image: url(tt.jpg);
+     text-align: center;
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    background-size: cover;
+    min-height: 600px;
+}
+a{font-size: 30px;
+color: blueviolet;
+text-decoration:none;
+}
+
+h1{font-size: 40px;}
